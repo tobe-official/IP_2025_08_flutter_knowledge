@@ -1,16 +1,48 @@
-# ip_2025_08_flutter_knowledge
+# IP_2025_08_flutter_knowledge
 
-This project is here to re-learn basics of flutter
+## 📖 Projektübersicht
+Dieses Projekt ist Teil meines IP-Sprints 2025_08 und dient dazu, mein Wissen in **Flutter** systematisch zu vertiefen.  
+Als ich Flutter vor über einem Jahr gelernt habe, absolvierte ich lediglich einen Online-Kurs – jedoch ohne die offiziellen **Flutter-Dokumentationen** gründlich zu bearbeiten.
 
-## Getting Started
+Mit dieser App hole ich das nach: ich baue kleine Beispiele, Features und Mini-Demos zu zentralen Flutter-Themen, um ein solides Fundament aufzubauen.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🎯 Ziele
+- Praktisches Verständnis der Flutter-Docs erarbeiten.
+- Konzepte nicht nur lesen, sondern in **Code** umsetzen.
+- Best Practices für zukünftige Projekte lernen.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Themen & Module
+Geplant sind unter anderem folgende Schwerpunkte:
+
+- **Streams & StreamBuilder**
+- **Named Constructors**
+- **State Management Grundlagen**
+- **Widgets (Stateless vs Stateful)**
+- **Asynchronität (Future, async/await)**
+- **Navigation & Routing**
+- **Theming & Styling**
+- **Testing Basics**
+
+Jedes Thema wird mit kleinen, isolierten Beispielen umgesetzt, um die Konzepte klar verständlich zu machen.
+
+---
+
+## 🚀 Getting Started
+1. Repository klonen:
+   ```bash
+   git clone https://github.com/<dein-github>/IP_2025_08_flutter_knowledge.git
+   ```
+
+2. App starten:
+   ```dart
+   fvm flutter pub get
+   ```
+
+3. App starten:
+   ```dart
+   fvm flutter run
+   ```
