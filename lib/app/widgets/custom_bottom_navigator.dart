@@ -24,7 +24,7 @@ class _CustomNavigationBarState extends State<CustomBottomNavigator> {
   }
 
   void _onItemTapped(int index) {
-    if (index == _currentIndex) return; // no-op if already on this tab
+    if (index == _currentIndex) return;
 
     setState(() {
       _currentIndex = index;
@@ -65,7 +65,7 @@ class _CustomNavigationBarState extends State<CustomBottomNavigator> {
         ),
         BottomNavigationBarItem(
           icon: Icon(
-            isOverview ? Icons.search : Icons.search_outlined,
+            isOverview ? Icons.search : Icons.person_search_sharp,
             color: Colors.black,
           ),
           label: "Overview Page",

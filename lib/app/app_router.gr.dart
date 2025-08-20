@@ -10,14 +10,13 @@
 
 // ignore_for_file: no_leading_underscores_for_library_prefixes
 import 'package:auto_route/auto_route.dart' as _i3;
-import 'package:ip_2025_08_flutter_knowledge/app/pages/home.dart' as _i1;
-import 'package:ip_2025_08_flutter_knowledge/app/pages/overview.dart' as _i2;
+import 'package:ip_2025_08_flutter_knowledge/app/pages/home/home.dart' as _i1;
+import 'package:ip_2025_08_flutter_knowledge/app/pages/overview/overview.dart' as _i2;
 
 /// generated route for
 /// [_i1.HomePage]
 class HomeRoute extends _i3.PageRouteInfo<void> {
-  const HomeRoute({List<_i3.PageRouteInfo>? children})
-      : super(HomeRoute.name, initialChildren: children);
+  const HomeRoute({List<_i3.PageRouteInfo>? children}) : super(HomeRoute.name, initialChildren: children);
 
   static const String name = 'HomeRoute';
 
@@ -32,8 +31,7 @@ class HomeRoute extends _i3.PageRouteInfo<void> {
 /// generated route for
 /// [_i2.OverviewPage]
 class OverviewRoute extends _i3.PageRouteInfo<void> {
-  const OverviewRoute({List<_i3.PageRouteInfo>? children})
-      : super(OverviewRoute.name, initialChildren: children);
+  const OverviewRoute({List<_i3.PageRouteInfo>? children}) : super(OverviewRoute.name, initialChildren: children);
 
   static const String name = 'OverviewRoute';
 

@@ -22,7 +22,7 @@ class _CustomAppBarState extends State<CustomAppBar> {
         widget.title,
         style: TextStyle(
           color: Colors.black,
-          fontSize: 20,
+          fontSize: 25,
         ),
       ),
       centerTitle: true,
