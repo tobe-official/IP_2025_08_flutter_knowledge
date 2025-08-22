@@ -1,17 +1,26 @@
+import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 
 class BoxWidget extends StatelessWidget {
-  const BoxWidget(
-      {super.key, required this.title, this.color = Colors.grey, this.secondaryColor, this.fontColor = Colors.black});
+  const BoxWidget({
+    super.key,
+    required this.title,
+    required this.routerPath,
+    this.color = Colors.grey,
+    this.secondaryColor,
+    this.fontColor = Colors.black,
+  });
 
   const BoxWidget.transition(
       {super.key,
       required this.title,
+      required this.routerPath,
       this.color = Colors.grey,
       this.secondaryColor = Colors.white,
       this.fontColor = Colors.black});
 
   final String title;
+  final String routerPath;
   final Color? color;
   final Color? secondaryColor;
   final Color? fontColor;
@@ -22,6 +31,7 @@ class BoxWidget extends StatelessWidget {
     final screenHeight = MediaQuery.of(context).size.height;
 
     return GestureDetector(
+      onTap: () => _router(context, routerPath),
       child: Container(
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(5),
@@ -45,5 +55,10 @@ class BoxWidget extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  _router(BuildContext context, String path) {
+    final router = context.router;
+    router.pushPath(path);
   }
 }

@@ -23,18 +23,21 @@ class OverviewPage extends StatelessWidget {
           children: [
             BoxWidget(
               title: 'Constructor',
+              routerPath: '/global',
               color: Colors.blue,
             ),
             SizedBox(height: 30),
             BoxWidget.transition(
               title: 'Named Constructors',
+              routerPath: '/global',
               color: Colors.blue,
               secondaryColor: Colors.green,
               fontColor: Colors.white,
             ),
             SizedBox(height: 30),
             BoxWidget(
-              title: 'Constructor',
+              title: 'Canvas',
+              routerPath: '/canvas',
               color: Colors.blue,
             ),
           ],

@@ -34,10 +34,10 @@ Jedes Thema wird mit kleinen, isolierten Beispielen umgesetzt, um die Konzepte k
 ## 🚀 Getting Started
 1. Repository klonen:
    ```bash
-   git clone https://github.com/<dein-github>/IP_2025_08_flutter_knowledge.git
+   git clone git@github.com:tobe-official/IP_2025_08_flutter_knowledge.git
    ```
 
-2. App starten:
+2. Fetch latest Package-Versions:
    ```dart
    fvm flutter pub get
    ```
@@ -45,4 +45,11 @@ Jedes Thema wird mit kleinen, isolierten Beispielen umgesetzt, um die Konzepte k
 3. App starten:
    ```dart
    fvm flutter run
+   ```
+   
+
+## Wichtige Commands
+1. Route erstellen:
+   ```dart
+   fvm dart run build_runner build
    ```

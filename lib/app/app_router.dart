@@ -8,6 +8,8 @@ class AppRouter extends RootStackRouter {
   List<AutoRoute> get routes => [
         _overview,
         _home,
+        _canvas,
+        _global,
       ];
 
   @override
@@ -25,4 +27,14 @@ final _home = AutoRoute(
   path: '/home',
   page: HomeRoute.page,
   initial: true,
+);
+
+final _canvas = AutoRoute(
+  path: '/canvas',
+  page: CanvasRoute.page,
+);
+
+final _global = AutoRoute(
+  path: '/global',
+  page: GlobalRoute.page,
 );
