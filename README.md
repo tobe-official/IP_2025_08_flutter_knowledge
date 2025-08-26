@@ -25,7 +25,6 @@ Geplant sind unter anderem folgende Schwerpunkte:
 - **Asynchronität (Future, async/await)**
 - **Navigation & Routing**
 - **Theming & Styling**
-- **Testing Basics**
 
 Jedes Thema wird mit kleinen, isolierten Beispielen umgesetzt, um die Konzepte klar verständlich zu machen.
 

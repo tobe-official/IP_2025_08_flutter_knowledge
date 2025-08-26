@@ -16,7 +16,6 @@ class OverviewPage extends StatelessWidget {
         title: 'Overview',
       ),
       //TODO add a search field for better searching
-      //TODO use a stream with data and delays for new data to give sometimes "random" boxes to the ui + the real boxes. random boxes lead to a prank screen
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -39,6 +38,11 @@ class OverviewPage extends StatelessWidget {
               title: 'Canvas',
               routerPath: '/canvas',
               color: Colors.blue,
+            ),
+            SizedBox(height: 30),
+            BoxWidget(
+              title: 'Streams',
+              routerPath: '/streams',
             ),
           ],
         ),

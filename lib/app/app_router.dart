@@ -10,6 +10,7 @@ class AppRouter extends RootStackRouter {
         _home,
         _canvas,
         _global,
+        _streams,
       ];
 
   @override
@@ -37,4 +38,9 @@ final _canvas = AutoRoute(
 final _global = AutoRoute(
   path: '/global',
   page: GlobalRoute.page,
+);
+
+final _streams = AutoRoute(
+  path: '/streams',
+  page: StreamRoute.page,
 );
