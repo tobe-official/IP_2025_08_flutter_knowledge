@@ -36,7 +36,7 @@ final _canvas = AutoRoute(
 );
 
 final _global = AutoRoute(
-  path: '/global',
+  path: '/global/:title/:description/:isNamedConstructor',
   page: GlobalRoute.page,
 );
 

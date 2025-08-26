@@ -37,18 +37,18 @@ Jedes Thema wird mit kleinen, isolierten Beispielen umgesetzt, um die Konzepte k
    ```
 
 2. Fetch latest Package-Versions:
-   ```dart
+   ```bash
    fvm flutter pub get
    ```
 
 3. App starten:
-   ```dart
+   ```bash
    fvm flutter run
    ```
    
 
 ## Wichtige Commands
 1. Route erstellen:
-   ```dart
+   ```bash
    fvm dart run build_runner build
    ```

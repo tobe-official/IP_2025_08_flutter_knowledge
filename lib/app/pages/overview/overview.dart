@@ -22,12 +22,18 @@ class OverviewPage extends StatelessWidget {
           children: [
             BoxWidget(
               title: 'Constructor',
+              description:
+                  'This Screen has a normal constructor behind it. We used the default constructors to build this page.',
+              isNamedConstructor: false,
               routerPath: '/global',
               color: Colors.blue,
             ),
             SizedBox(height: 30),
             BoxWidget.transition(
               title: 'Named Constructors',
+              description:
+                  'This Screen has a named constructor behind it. We used the named constructors to build this page.',
+              isNamedConstructor: true,
               routerPath: '/global',
               color: Colors.blue,
               secondaryColor: Colors.green,
