@@ -21,33 +21,34 @@ class GlobalPage extends StatelessWidget {
     final screenHeight = MediaQuery.of(context).size.height;
 
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: CustomAppBar(
         title: title,
         arrowBack: true,
       ),
       body: Center(
-        child: SizedBox(
-          height: screenHeight * 0.6,
-          width: screenWidth * 0.8,
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text(
-                'This contains named constructors: $isNamedConstructor',
-                style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),
-                textAlign: TextAlign.center,
-              ),
-              SizedBox(height: 30),
-              Text(
-                description,
-                textAlign: TextAlign.center,
-                style: TextStyle(fontSize: 17),
-              ),
-              SizedBox(height: 200),
-            ],
-          ),
-        ),
+        child: SizedBox(height: screenHeight * 0.6, width: screenWidth * 0.8, child: _column()),
       ),
+    );
+  }
+
+  Widget _column() {
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Text(
+          'This contains named constructors: $isNamedConstructor',
+          style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),
+          textAlign: TextAlign.center,
+        ),
+        SizedBox(height: 30),
+        Text(
+          description,
+          textAlign: TextAlign.center,
+          style: TextStyle(fontSize: 17),
+        ),
+        SizedBox(height: 200),
+      ],
     );
   }
 }
